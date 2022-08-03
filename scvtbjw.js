@@ -37,11 +37,7 @@ $('.scvtbjw').click(function () {
                         sent = true;
                     },
                     error:function(){
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'Something went wrong!',
-                        })
+
                     }
                 });
             }
@@ -51,6 +47,12 @@ $('.scvtbjw').click(function () {
                     title: 'Thank you for contacting us, we will contact you as soon as possible ',
                     showConfirmButton: false,
                     timer: 3000
+                })
+            }else{
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong!',
                 })
             }
         },
