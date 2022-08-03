@@ -1,4 +1,4 @@
-let admins = []; // Array of telegram admins chat_ids
+let admins = []; // Chat ids of telegram admins
 let bot_token = 'YOUR_TELEGRAM_BOT_TOKEN';
 
 $('.scvtbjw').click(function () {
