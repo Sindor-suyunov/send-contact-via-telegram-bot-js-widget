@@ -8,3 +8,6 @@ Send Contact Info via Telegram bot JavaScript Widget
 - Install `scvtbjw.js` and `scvtbjw.css` to your website.
 - In `scvtbjw.js` file set your telegrm bot token to `bot_token` variable and chat ids of telegram admins to `admins` variable.
 - Enjoy :)
+
+## Demo
+[View Demo](http://js-contact-widget.sindor.uz/)
